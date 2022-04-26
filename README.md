@@ -42,7 +42,7 @@ The report has been completed submitted to be reviewed; One the reviewing finish
 * Python3 were used in this project;
 * [Jupyter notebook](https://jupyter.org/) are needed to run jupyter notebooks in this project;
 * [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php) was used to view images;
-* See requirements.txt
+* Python library details can be found in [requirements file](https://github.com/zhangerjun/UNet_model/blob/main/requirements.txt).
 
 
 
