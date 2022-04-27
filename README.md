@@ -38,15 +38,21 @@ Experiments designed and operations we used were to meet our two general project
 
 The report has been completed submitted to be reviewed; Once review finished, it will be released. 
 
-## Dependencies
+## Reproducibility
+### Dependencies
 
 * Operation system: Linux ([Pop!_OS](https://pop.system76.com/) 20.10);
 * Precessor: Intel® Core™ i7-9700KF CPU @ 3.60GHz × 8, 62.7 GiB memory;
-* Python3 were used in this project;
+* Python3 was used in this project;
 * [Jupyter notebook](https://jupyter.org/) are needed to run jupyter notebooks in this project;
 * [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php) was used to view images;
 * Python library details can be found in [requirements file](https://github.com/zhangerjun/UNet_model/blob/main/requirements.txt).
 
+### Usage
+* Put training images and the corresponding labels into folder 'image0' and 'label0' (now the shape of input images have to be 512x512);
+* The feed-in data will be split into training set and test set wit ratio 7/3 autmatically; 
+* Run 'UNet_without_data_augmentation.ipynb' to test if model can work on small dataset segmentation;
+* Run 'UNet_effect_by_augmentation.ipynb' to do augemnatation experiment.
 
 
 ## Conclusion and acknowledgement
