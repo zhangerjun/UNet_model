@@ -3,11 +3,8 @@
 Team contributors: Zoé Ducroux, Daisy Jayson and Erjun Zhang
 
 
-## Abstract
-
-
-
-## Project definition 
+## Summary
+U-Net is a classic deep learning method and it has been widely applied to image segmentation. It can be used for small dataset medical image segmentation and that data augmentation is the key to improve model performance. This project implemented the model from scratch following ideas in the [paper](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).  Then we pre-processed (augmented) the data and applied the model on dataset without augmentation and with different augmentation size. Finally, test accuracy of $81.40\%$ was achieved without data augmentation and accuracy of $86.02\%$ was achieved by augmenting the dataset to from $21$ to $147$ images. By virtually checking and comparing performance values, we concluded that U-Net model can do small dataset segmentation and data augmentation can improve model perfomances. It could be interesting for medical imaging researchers and data scientists. 
 
 ### Background
 
@@ -48,3 +45,5 @@ The report has been completed submitted to be reviewed; One the reviewing finish
 
 ## Conclusion and acknowledgement
 
+This work was inspired by the [publication](https://lmb.informatik.uni-freiburg.de/Publications/2015/RFB15a/) of U-Net model.
+This is the teamwork.

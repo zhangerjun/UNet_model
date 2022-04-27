@@ -1,0 +1,21 @@
+This is to expalin folders and files for mini-project 4:
+Data could be found in folder 'data'; 
+
+1. 'UNet_without_data_augmentation.ipynb': to repeat experiment 1 and support claim 1;
+
+2. 'UNet_effect_by_augmentation.ipynb': to repeat experiment 2 and support claim 2;
+
+
+3. 'UNet_training_example.ipynb': example file to let you familar with the functions we designed in this project;
+
+4. 'Requirements.txt': the library needed for this project;
+
+5. 'UNet2D.py': code we wrote for UNet;
+
+6. 'DataFunctions.py': functions for the data preprocessing.
+
+7. trained model and the weights can be found in results: 'unet_model_trained.zip'. It includes all  models we trained.
+
+8. The segmentation by using this model can be found in folder results: 'Test_images_and_predictions.zip'. You may need install ITK-SNAP to view the images.
+
+All details can be found in github: https://github.com/zhangerjun/UNet_model.
