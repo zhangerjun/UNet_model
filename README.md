@@ -14,8 +14,11 @@ This model has been developed since 2012 and has many variants, but we hardly fo
 
 ### Data 
 
-This project used data from online dataset offered by:
-* Transmission Electron Microscopy (ssTEM) data set of the Drosophila first instar larva ventral nerve cord (VNC): dataset and the discription can be found [here: ISBI 2012 Segmentation Challenge](https://imagej.net/events/isbi-2012-segmentation-challenge).
+Dataset used in this project:
+* Transmission Electron Microscopy data set of the Drosophila first instar larva ventral nerve cord; dataset and its discription can be found [here](https://imagej.net/events/isbi-2012-segmentation-challenge).
+
+Example images and labels:
+* ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig1.png)
 
 ### Experimental setup
 Experiments designed and operations we used were to meet our two general project goal. To see if claims of the author are correct or not:
@@ -23,9 +26,9 @@ Experiments designed and operations we used were to meet our two general project
 * model performance on dataset without data augmentation and with small data augmentation would be compared to see if augmented data can still be used as training dataset;
 * model performance on dataset with different augmented dataset would be used to explore the behavior of the model performance while varying augmentation (from no augmentation to 147 augmented samples).
 
-## Results 
-* ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig1.png)
 * ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig2.png)
+
+## Results 
 * ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig3.png)
 * ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig4.png)
 * ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig5.png)
@@ -49,4 +52,4 @@ The report has been completed submitted to be reviewed; Once review finished, it
 ## Conclusion and acknowledgement
 U-Net model can do small dataset segmentation and data augmentation can improve model perfomances.
 
-This work was inspired by the [publication](https://lmb.informatik.uni-freiburg.de/Publications/2015/RFB15a/). %It was completed in Magic lab
+This work was inspired by the [publication](https://lmb.informatik.uni-freiburg.de/Publications/2015/RFB15a/). It was completed in Magic lab in TransMedTech Institute in CHU Sainte Justine Hospital.
