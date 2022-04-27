@@ -25,11 +25,15 @@ Experiments designed and operations we used were to meet our two general project
 
 ## Results 
 * ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig1.png)
-* Figure 2
-* The training weights can be [update! download here](https://imagej.net/events/isbi-2012-segmentation-challenge);
-* The test image files and the corresponding segmentations can be [update! download here](https://imagej.net/events/isbi-2012-segmentation-challenge);
+* ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig2.png)
+* ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig3.png)
+* ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig4.png)
+* ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig5.png)
+* ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig6.png)
+* The training weights can be [download here](https://github.com/zhangerjun/UNet_model/blob/main/results/Test_images_and_predictions.zip);
+* The test image files and the corresponding predicted segmentations can be [download here](https://github.com/zhangerjun/UNet_model/blob/main/results/Test_images_and_predictions.zip).
 
-The report has been completed submitted to be reviewed; One the reviewing finished, we will be released here. 
+The report has been completed submitted to be reviewed; Once review finished, it will be released. 
 
 ## Dependencies
 
