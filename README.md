@@ -6,26 +6,25 @@ Team contributors: Zoé Ducroux, Daisy Jayson and Erjun Zhang
 ## Summary
 U-Net is a classic deep learning method and it has been widely applied to image segmentation. It can be used for small dataset medical image segmentation and that data augmentation is the key to improve model performance. This project implemented the model from scratch following ideas in the [paper](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).  Then we pre-processed (augmented) the data and applied the model on dataset without augmentation and with different augmentation size. Finally, test accuracy of $81.40\%$ was achieved without data augmentation and accuracy of $86.02\%$ was achieved by augmenting the dataset to from $21$ to $147$ images. By virtually checking and comparing performance values, we concluded that U-Net model can do small dataset segmentation and data augmentation can improve model perfomances. It could be interesting for medical imaging researchers and data scientists. 
 
-### Background
+## Background
+U-Net is a classic deep learning method and it has been widely applied to image segmentation. 
+This model has been developed since 2012 and has many variants, but we hardly found code (Python) to reproduce the results of this paper. Thus, we set the project goal as reproducing the U-Net architecture for image segmentation following the idea from this original publication and explore data augmentation effects on its perfomance. 
 
-
-### Tools 
-
-The mini-project will rely on the following technologies: 
- * Python to be the main language used to complete this project.
- * Tensorflow (keras)
- * DIPY
-
-
+## Method
 
 ### Data 
 
 This project used data from online dataset offered by:
-1. Transmission Electron Microscopy (ssTEM) data set of the Drosophila first instar larva ventral nerve cord (VNC): dataset and the discription can be found [here: ISBI 2012 Segmentation Challenge](https://imagej.net/events/isbi-2012-segmentation-challenge).
+* Transmission Electron Microscopy (ssTEM) data set of the Drosophila first instar larva ventral nerve cord (VNC): dataset and the discription can be found [here: ISBI 2012 Segmentation Challenge](https://imagej.net/events/isbi-2012-segmentation-challenge).
 
+### Experimental setup
+Experiments designed and operations we used were to meet our two general project goal. To see if claims of the author are correct or not:
+* we first implemented the model and applied it on the chosen dataset, then tested if it can segment the image well;
+* model performance on dataset without data augmentation and with small data augmentation would be compared to see if augmented data can still be used as training dataset;
+* model performance on dataset with different augmented dataset would be used to explore the behavior of the model performance while varying augmentation (from no augmentation to 147 augmented samples).
 
 ## Results 
-* Figure 1
+* ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig1.png)
 * Figure 2
 * The training weights can be [update! download here](https://imagej.net/events/isbi-2012-segmentation-challenge);
 * The test image files and the corresponding segmentations can be [update! download here](https://imagej.net/events/isbi-2012-segmentation-challenge);
@@ -44,6 +43,6 @@ The report has been completed submitted to be reviewed; One the reviewing finish
 
 
 ## Conclusion and acknowledgement
+U-Net model can do small dataset segmentation and data augmentation can improve model perfomances.
 
-This work was inspired by the [publication](https://lmb.informatik.uni-freiburg.de/Publications/2015/RFB15a/) of U-Net model.
-This is the teamwork.
+This work was inspired by the [publication](https://lmb.informatik.uni-freiburg.de/Publications/2015/RFB15a/). %It was completed in Magic lab
