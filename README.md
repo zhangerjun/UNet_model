@@ -35,8 +35,8 @@ Experiments designed and operations we used were to meet our two general project
 * ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig6.png)
 * The training weights can be [download here](https://github.com/zhangerjun/UNet_model/blob/main/results/Test_images_and_predictions.zip);
 * The test image files and the corresponding predicted segmentations can be [download here](https://github.com/zhangerjun/UNet_model/blob/main/results/Test_images_and_predictions.zip).
+* The report can be found and [download here](https://github.com/zhangerjun/UNet_model/reports/Project4_report.pdf);
 
-The report has been completed submitted to be reviewed; Once review finished, it will be released. 
 
 ## Reproducibility
 ### Dependencies
@@ -60,4 +60,4 @@ U-Net model can do small dataset segmentation and data augmentation can improve 
 
 In the future, we will try to make it work with any shape of imput images and also multi-class segmentation will be added.
 
-This work was inspired by the [publication](https://lmb.informatik.uni-freiburg.de/Publications/2015/RFB15a/). It was completed in Magic lab in TransMedTech Institute in CHU Sainte Justine Hospital.
+This work was inspired by the [publication](https://lmb.informatik.uni-freiburg.de/Publications/2015/RFB15a/). It was completed in NeuroPoly at Polytechnique Montreal and Magic lab in TransMedTech Institute in CHU Sainte Justine Hospital.
