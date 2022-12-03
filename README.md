@@ -35,7 +35,7 @@ Experiments designed and operations we used were to meet our two general project
 * ![U-Net can work](https://github.com/zhangerjun/UNet_model/blob/main/results/Fig6.png)
 * The training weights can be [download here](https://github.com/zhangerjun/UNet_model/blob/main/results/Test_images_and_predictions.zip);
 * The test image files and the corresponding predicted segmentations can be [download here](https://github.com/zhangerjun/UNet_model/blob/main/results/Test_images_and_predictions.zip).
-* The report can be found and [download here](https://github.com/zhangerjun/UNet_model/reports/Project4_report.pdf);
+* The report can be found and [download here](./reports/Project4_report.pdf);
 
 
 ## Reproducibility
