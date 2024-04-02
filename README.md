@@ -1,4 +1,4 @@
-# Mini-Project 4: UNet Model
+# UNet Model
 
 Team contributors: Zoé Ducroux, Daisy Jayson and Erjun Zhang
 
